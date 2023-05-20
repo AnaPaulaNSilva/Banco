@@ -1,4 +1,7 @@
 
-public class TransferenciaInvalidaException {
-
-}
+public class TransferenciaInvalidaException extends RuntimeException{
+	
+	 public TransferenciaInvalidaException(String message) {
+	        super(message);
+	    }
+	}
